@@ -1,0 +1,32 @@
+name: "Ventra-EMS (pre-release)"
+description: "Ventra-tech Energy Management System v2"
+version: "1.0.543"
+url: "https://github.com/frank8the9tank/ventra-ems-prerelease"
+changelog: "CHANGELOG.md"
+slug: "ventra_ems_v2"
+image: "ghcr.io/frank8the9tank/ventra-ems-prerelease/{arch}"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+init: false
+auth_api: true
+homeassistant_api: true
+supervisor_api: true
+ingress: true
+ingress_port: 8125
+ports:
+  8125/tcp: 8125
+panel_icon: "mdi:home-battery-outline"
+panel_title: "Ventra-EMS"
+map:
+  - config:rw
+options:
+  logging: false
+  license_key: ""
+  telemetry: true
+schema:
+  logging: bool
+  license_key: str
+  telemetry: bool
