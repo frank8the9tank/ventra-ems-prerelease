@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.545
+- fix: ask the companion again while control entities are missing after a restart
+
+## 1.0.544
+- ci: Pre-release workflow — build the images once (private) and publish on the pre-release channel
+
 ## 1.0.543
 - feat: buy/sell mode "daily" — every day the best moments, whatever the price (D-027)
 
