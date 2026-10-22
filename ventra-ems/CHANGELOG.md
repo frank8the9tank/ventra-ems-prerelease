@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.550
+- feat: technical name (device id) visible and changeable; companion 0.8.1 removes old entities
+
+## 1.0.549
+- fix: info marks on battery charge level, capacity, max charge, max discharge and charge-again level
+
+## 1.0.548
+- fix: no trade cards without a battery or grid controller; the add button above the device list
+
 ## 1.0.547
 - fix: device name as a normal field (General section) in every device window; a new inverter starts with limit steps of 0.1 kW every 5 s
 
