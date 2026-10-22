@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.547
+- fix: device name as a normal field (General section) in every device window; a new inverter starts with limit steps of 0.1 kW every 5 s
+
+## 1.0.546
+- fix: a device window with unsaved changes no longer closes on a click outside, Esc or another device; Cancel asks to discard
+
 ## 1.0.545
 - fix: ask the companion again while control entities are missing after a restart
 
