@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.0.556
+- feat: weekly schedule is a condition in the rules (grid shown only under it, inside/outside); time window is now "Daily schedule"; schema v12 migrates old schedules
+
+## 1.0.555
+- fix: the Live section is called Control; its "Applies at once" line removed
+
+## 1.0.554
+- fix: devices listed in a window (All batteries, inverter's battery) open their own window; batteries show Hybrid or Stand-alone
+
+## 1.0.553
+- feat: a new device needs a name and technical name before it can be added (start empty, checked as you type, never numbered automatically)
+
+## 1.0.552
+- feat: test control for one battery or EV charger (charge / discharge / hold at X kW, 0-60 min timer, only its own maximum)
+
+## 1.0.551
+- ci: pre-release channel updated as soon as amd64 is built; ARM images keep building in the same run
+
 ## 1.0.550
 - feat: technical name (device id) visible and changeable; companion 0.8.1 removes old entities
 
