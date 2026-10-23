@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.560
+- fix: sell planning counts the current slot at the lowest of grid export and battery discharge power, like the other slots
+
+## 1.0.559
+- fix: buy planning counts the current slot at the lowest of grid import and battery charge power, like the other slots
+
+## 1.0.558
+- feat: one trade card above the grid circle, shown only with a planned sell or buy window; buying and selling strategy as separate sections with their own option names
+
+## 1.0.557
+- feat: device circles on the overview are the size of the inverter / battery sub circles
+
 ## 1.0.556
 - feat: weekly schedule is a condition in the rules (grid shown only under it, inside/outside); time window is now "Daily schedule"; schema v12 migrates old schedules
 
