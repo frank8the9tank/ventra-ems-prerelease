@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.0.569
+- feat: the optional meter on heat pumps, relay devices and ACs too; the field is called "Meter". Fix: an EV meter now notices charging started by hand (it compared a negative reading)
+
+## 1.0.568
+- feat: energy fields get "Counts up (total meter)": a meter that never resets is shown per day (EV charger: per charging session); energy shown without a minus sign
+
+## 1.0.567
+- fix: entity search filters while typing (the list items ignored "hidden"); Enter picks the first match, Escape closes the list; glue automation entity fields are searchable too
+
+## 1.0.566
+- feat: glueprints from the ventra-glueprint repo: the device window offers the fitting ones, installs them and creates the automation; installed glueprints update automatically (bundled blueprints removed)
+
+## 1.0.565
+- feat: the optional power meter (inverter, EV charger) is shown under "Control (for checking)" and at its circle
+
+## 1.0.564
+- feat: heat pump / air conditioner blueprint (copy of ventra-glueprint v1): main, heating, cooling, hot water relays with optional extra conditions
+
+## 1.0.563
+- feat: OCPP EV charger blueprint (copy of ventra-glueprint v1): power → charging current + charge control
+
+## 1.0.562
+- fix: EV charged energy on the overview in kWh (it showed Wh, e.g. 22870 kWh instead of 22.87)
+
 ## 1.0.561
 - feat: daily buy/sell mode gets a release level and "once per period" (target reached is remembered and can be reset under More settings)
 
