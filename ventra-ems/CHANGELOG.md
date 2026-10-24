@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.572
+- fix: Zonneplan's hourly and quarter-hourly tariff forecasts are read (start_date + price_tax_included; they fell back to a flat price). The grid window shows each forecast entity as a small graph with its points and spacing
+
+## 1.0.571
+- feat: the Home window shows the consumption now and where it goes: each device using power, then the rest of the house (kW and share)
+
 ## 1.0.570
 - fix: rule modes are called "Basic" and "ON OFF separately" (the explanation stays in the info mark)
 
