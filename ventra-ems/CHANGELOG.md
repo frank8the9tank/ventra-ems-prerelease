@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.570
+- fix: rule modes are called "Basic" and "ON OFF separately" (the explanation stays in the info mark)
+
 ## 1.0.569
 - feat: the optional meter on heat pumps, relay devices and ACs too; the field is called "Meter". Fix: an EV meter now notices charging started by hand (it compared a negative reading)
 
