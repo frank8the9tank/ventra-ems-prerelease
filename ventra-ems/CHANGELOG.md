@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.561
+- feat: daily buy/sell mode gets a release level and "once per period" (target reached is remembered and can be reset under More settings)
+
 ## 1.0.560
 - fix: sell planning counts the current slot at the lowest of grid export and battery discharge power, like the other slots
 
