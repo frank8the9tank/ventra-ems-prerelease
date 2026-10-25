@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.0.580
+- fix: the battery bars keep their background and rounded ends
+
+## 1.0.579
+- feat: All batteries shows two bars: the energy stored in all batteries and the power going in or out now, each battery a part in its own colour
+
+## 1.0.578
+- feat: All batteries shows each battery's setpoint and actual power (with charge level and control) and the totals, live
+
+## 1.0.577
+- fix: overview circles in a row stay level: each is placed by its own centre, so a meter or energy line under (or a name above) it no longer moves it
+
+## 1.0.576
+- feat: an EV charger forced on gets a slider for its power (between its minimum and maximum), applied at once
+
+## 1.0.575
+- feat: EV power mode "Ready by: cheapest hours": what the car still needs, charged at the cheapest moments before the ready-by time (solar surplus otherwise); rule condition "Planned EV charging moment"
+
+## 1.0.574
+- feat: overview circles can be rearranged by touch in edit mode (phone and tablet), not only with a mouse
+
+## 1.0.573
+- fix: the back button (phone or browser) closes the open window or dialog instead of leaving the page; with unsaved changes it asks to discard first
+
 ## 1.0.572
 - fix: Zonneplan's hourly and quarter-hourly tariff forecasts are read (start_date + price_tax_included; they fell back to a flat price). The grid window shows each forecast entity as a small graph with its points and spacing
 
