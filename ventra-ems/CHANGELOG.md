@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.584
+- feat: the grid reads the smart meter's four counters (import / export, low / high tariff): today per tariff in the grid window, imported / exported today at the grid circle, and today's import / export in the savings from the meter
+
+## 1.0.583
+- feat: the All solar window shows a live summary like All batteries: bars for the power now and the energy today per inverter, and a table with power, today and power limit
+
+## 1.0.582
+- fix: overview: Home (with Grid and Battery beside it) back in the vertical centre; the small battery circles sit beside Solar instead of taking a band of height under it, unless a row reaches the Solar column
+
+## 1.0.581
+- fix: auto buy reaches the maximum import: the room counts only the batteries Ventra-EMS controls in that mode (a stand-alone battery that discharged made the room look smaller)
+
 ## 1.0.580
 - fix: the battery bars keep their background and rounded ends
 
