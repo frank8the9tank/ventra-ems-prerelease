@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.600
+- feat: EV charger rules: "Charge with" per group (power mode, solar surplus, fixed, maximum, minimum; the highest of the matching groups wins); up to 3 groups with 9 conditions each
+
+## 1.0.599
+- fix: the "Control (for checking)" card in the device windows is called Debug
+
+## 1.0.598
+- fix: the entity picker searches all entities (it showed at most 400 and searched only those, so sensors after many binary_sensors were unreachable); sensors are listed first
+
+## 1.0.597
+- fix: the glue automation's fields are shown one under the other, like the other windows
+
 ## 1.0.596
 - ci: pre-release option "amd64 only (release VM)" (skips the ARM builds, saves Actions minutes)
 
