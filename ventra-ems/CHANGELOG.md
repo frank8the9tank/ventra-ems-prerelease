@@ -1,5 +1,41 @@
 # Changelog
 
+## 1.0.596
+- ci: pre-release option "amd64 only (release VM)" (skips the ARM builds, saves Actions minutes)
+
+## 1.0.595
+- fix: price forecast graph colours: the prices in one blue-violet family, the buy and sell limits in amber / orange
+
+## 1.0.594
+- feat: a device with a meter shows the meter's reading in its Status card
+
+## 1.0.593
+- fix: All batteries / All solar: the card is called Overview; the sign explanation under it is removed
+
+## 1.0.592
+- fix: price forecast graph: solid lines only, each its own colour (buy blue, sell green, market amber, contract purple, buy below cyan, sell above rose); sell drawn on the wider buy line so both stay visible
+
+## 1.0.591
+- fix: the grid window shows imported and exported today as one value each (low and high tariff together)
+
+## 1.0.590
+- fix: the current slot in the price table is highlighted inside its row, so it stays within the window; room for the scrollbar
+
+## 1.0.589
+- fix: a toggle never shows the checkbox behind it (in view mode the disabled checkbox showed through)
+
+## 1.0.588
+- fix: the savings line at the bottom is its own row under the diagram and the device row reserves room for every line under its circles, so they never overlap
+
+## 1.0.587
+- fix: EV "Ready by" plans with the energy per session while the car's SoC is unknown (no reading in 15 minutes); with a SoC entity the window shows charge to, car battery and the fallback energy
+
+## 1.0.586
+- feat: extra sensors per device: more HA entities the rules can check (condition "Sensor value": ≤ / ≥ a number or is a state) and that can be shown at the device's circle
+
+## 1.0.585
+- fix: the glue automation's entity fields use the same entity picker as everywhere else (search, show all, live value), limited to the entities the glueprint accepts
+
 ## 1.0.584
 - feat: the grid reads the smart meter's four counters (import / export, low / high tariff): today per tariff in the grid window, imported / exported today at the grid circle, and today's import / export in the savings from the meter
 
