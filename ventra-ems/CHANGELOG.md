@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.0.608
+- fix: a new device shows all its defaults at once (an EV charger's advanced settings too); low power below now defaults to 1 kW
+
+## 1.0.607
+- fix: clicking an entity field always puts the cursor in its search box, and what you type survives the list loading or refreshing
+
+## 1.0.606
+- feat: a glue automation can be deleted from the device window (Delete, with a confirmation)
+
+## 1.0.605
+- fix: a device gets one glue automation: once it has one, the device window no longer offers a second
+
+## 1.0.604
+- fix: the rule condition "Sensor value" works for heat pumps and air conditioners (rules per relay), and extra sensors no longer show "means_any"
+
+## 1.0.603
+- feat: the device window shows whether its glue automation is enabled, switched off or broken in Home Assistant (and when it last ran), with an Enable button
+
+## 1.0.602
+- feat: glue automations follow the device: Edit their inputs from the device window, a warning with Fix when their Ventra-EMS entities no longer match, and a technical-name rename moves them along
+
+## 1.0.601
+- feat: EV chargers lowered for the maximum import each give up the same amount; the share weight setting is removed (schema 13)
+
 ## 1.0.600
 - feat: EV charger rules: "Charge with" per group (power mode, solar surplus, fixed, maximum, minimum; the highest of the matching groups wins); up to 3 groups with 9 conditions each
 
