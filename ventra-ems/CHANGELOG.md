@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.610
+- fix: a power in kW stays on one line in the circles (classic look)
+
+## 1.0.609
+- feat: the overview shows the word Solar on the left of the solar circle
+
 ## 1.0.608
 - fix: a new device shows all its defaults at once (an EV charger's advanced settings too); low power below now defaults to 1 kW
 
