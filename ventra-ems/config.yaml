@@ -1,6 +1,6 @@
 name: "Ventra-EMS (pre-release)"
 description: "Ventra-tech Energy Management System"
-version: "1.0.600"
+version: "1.0.608"
 url: "https://github.com/frank8the9tank/ventra-ems-prerelease"
 changelog: "CHANGELOG.md"
 slug: "ventra_ems_v2"
