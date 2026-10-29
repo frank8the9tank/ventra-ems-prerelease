@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.612
+- feat: an EV's planned charging says where the kWh still needed come from (car SoC or fixed amount), shows "car full" instead of a leftover amount, and warns when it won't be ready by the ready-by time
+
+## 1.0.611
+- feat: an EV charger's power is set per rule group, with options that fit its conditions; the separate power mode is gone and a planned group shows its planned moments (schema 14)
+
 ## 1.0.610
 - fix: a power in kW stays on one line in the circles (classic look)
 
