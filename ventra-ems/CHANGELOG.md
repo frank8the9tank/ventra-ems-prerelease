@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.0.619
+- docs: telemetry note no longer mentions server details
+
+## 1.0.618
+- docs: telemetry data is kept 7 days on the server (was 365)
+
+## 1.0.617
+- feat: the header shows only the logo, the name (also on a phone) and the menu; edit mode, basic/advanced view, light/dark and the language moved into the menu, with a Done button in the header while editing
+
+## 1.0.616
+- refactor: the energy counters and the house load are kept in one file, measurements.json; older energy_counters.json and house_load.json are merged into it on the first start
+
+## 1.0.615
+- feat: EVs and the battery share the grid room in auto buy, in the plans and in real time; the plans keep a reserve for the house, set by hand or learned per 15 minutes and shown as a graph under Maximum import
+
+## 1.0.614
+- fix: bad price data keeps auto mode at zero: an unavailable price no longer counts as €0 right after a start, a feed of only zeros is ignored, and one unusable price source stops both buying and selling
+
+## 1.0.613
+- feat: Save keeps the device window open; every setting and input field has a short info mark (max 2–3 lines, EN + NL), now also entity fields, live controls and rule conditions
+
 ## 1.0.612
 - feat: an EV's planned charging says where the kWh still needed come from (car SoC or fixed amount), shows "car full" instead of a leftover amount, and warns when it won't be ready by the ready-by time
 
