@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.622
+- feat: every window with power shows its last 24 hours per 15 minutes: grid, each inverter and all solar, each battery and all batteries, the grid controller and every device with a power sensor
+
+## 1.0.621
+- feat: a battery that stays off its setpoint gets a "!" at the home circle, and the Home window says which one, by how much and what to check
+
+## 1.0.620
+- feat: the Grid window shows the import and export of the last 24 hours per 15 minutes; the average house load graph moved to the Home window
+
 ## 1.0.619
 - docs: telemetry note no longer mentions server details
 
