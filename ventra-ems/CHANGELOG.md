@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.629
+- feat: a device's costs show where its energy came from: every second its use is split over solar, battery and grid, each at its own price (sell price, the battery's cost price, buy price), stacked per source with kWh and euros
+
+## 1.0.628
+- feat: every window with a power graph gets a "Costs and earnings" card: what the solar was worth, what a battery saved and cost, what a device or the car cost, import and export in euros, and what was saved, per 15 minutes or per hour
+
 ## 1.0.627
 - feat: the Solar and Battery circle windows show their devices list at the top
 
