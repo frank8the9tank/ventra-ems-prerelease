@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.0.627
+- feat: the Solar and Battery circle windows show their devices list at the top
+
+## 1.0.626
+- feat: the cards in every window are ordered from most useful to set up once: live controls, status, power history, daily use, sometimes adjusted, set up once, and the name at the bottom
+
+## 1.0.625
+- fix: web pages from other sites can no longer reach the add-on through your browser: no CORS, and every change must be sent as JSON; the About page works through Ingress again
+
+## 1.0.624
+- feat: the companion integration finds the add-on by itself over Home Assistant's internal network: no URL to fill in and no open port needed; it always follows the add-on on its own system
+
+## 1.0.623
+- feat: every power graph switches between 24 hours and 7 days (per hour), the choice is remembered; the Home window shows what the house draws too
+
 ## 1.0.622
 - feat: every window with power shows its last 24 hours per 15 minutes: grid, each inverter and all solar, each battery and all batteries, the grid controller and every device with a power sensor
 
