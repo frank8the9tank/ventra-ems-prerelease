@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.0.637
+- fix: shorter maximum import explanation in the Grid connection window
+
+## 1.0.636
+- fix: the Grid connection's limits no longer show the note about whole-system limits
+
+## 1.0.635
+- fix: the Grid connection's costs card shows import cost on top and export earned below (as its power graph), without the explanation line
+
+## 1.0.634
+- feat: every graph shows the values under the mouse (or a tap): power history, costs and earnings, house load, price forecast, the price and solar charts, and the battery and solar bars
+
+## 1.0.633
+- feat: every info mark has a number (#101 and up, grouped per window) for the settings wiki; info texts without internal details; block planning no longer takes a nearly finished expensive slot
+
+## 1.0.632
+- feat: an EV rule group chooses where the car's energy comes from: solar and grid (the home battery stays for the house, the default), solar, battery and grid, or the cheapest at that moment
+
+## 1.0.631
+- feat: the Grid window's price chart and table show the market and contract price, with the buy and sell strategy as a threshold line (in market or contract terms) or as the planned slots
+
+## 1.0.630
+- feat: planned EV charging can stay in 1, 2 or 3 uninterrupted blocks instead of the cheapest separate slots; a block plan is kept while it still delivers
+
 ## 1.0.629
 - feat: a device's costs show where its energy came from: every second its use is split over solar, battery and grid, each at its own price (sell price, the battery's cost price, buy price), stacked per source with kWh and euros
 
