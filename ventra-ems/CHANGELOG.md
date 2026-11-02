@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.641
+- fix: the price chart in the Grid connection window shows again (its hidden axis for the planned slots now has a type, as Chart.js 4 requires)
+
+## 1.0.640
+- feat: new buy mode "a fixed amount every period": buy X kWh at the cheapest moments, or the predicted daily use of what you tick; the Home window shows the use per day per consumer
+
+## 1.0.639
+- feat: an EV charger can stay on when the car is full, so the car can preheat its battery or cabin from the charger until it is unplugged
+
+## 1.0.638
+- feat: EV chargers can detect whether the car charges on 1 or 3 phases (from the measured power) and set their limits to match; a new entity gives the charging current in amps for the glue
+
 ## 1.0.637
 - fix: shorter maximum import explanation in the Grid connection window
 
