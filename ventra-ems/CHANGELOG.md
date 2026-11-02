@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.0.646
+- fix: the costs and earnings cards no longer show explanation lines (solar, devices, home)
+
+## 1.0.645
+- fix: the battery costs card no longer shows the explanation line; a planning test no longer depends on the time of day
+
+## 1.0.644
+- feat: the battery window's status shows the remaining capacity: the energy above its lowest charge level, of what it can hold there
+
+## 1.0.643
+- fix: a battery's usable energy is capacity × (charge level − lowest level); the separate "usable part of the capacity" setting is gone (schema 15) — it counted wrong when it didn't match the lowest level
+
+## 1.0.642
+- fix: ticking a control mode no longer makes the battery window jump; a battery left out because its share is below its minimum power now says so instead of "idle"
+
 ## 1.0.641
 - fix: the price chart in the Grid connection window shows again (its hidden axis for the planned slots now has a type, as Chart.js 4 requires)
 
