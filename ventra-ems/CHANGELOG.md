@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.654
+- feat: a battery or grid controller can have kWh readings; a Battery behaviour card shows its energy in and out, the round-trip efficiency full to full and the capacity from and to full
+
+## 1.0.653
+- feat: a device's meter can have kWh readings (import and export counter, or one combined counter), shown as meter in / out today
+
+## 1.0.652
+- feat: a rule condition on a measurement can have to hold for a number of minutes before it counts (per condition)
+
 ## 1.0.651
 - feat: taking and releasing control of a battery, grid controller or EV charger ramps over its handover time; a Setpoint and actual card and the setpoint in the power history
 
