@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.649
+- test: the Energy Price Forecast EU sensor is read from raw_today / raw_tomorrow, without its estimates
+
+## 1.0.648
+- feat: a second market price source with a choice of which one is used and a fallback, and a name per price source
+
+## 1.0.647
+- feat: battery, grid controller and EV windows and the battery circle show a charge level graph (24 h | 7 days)
+
 ## 1.0.646
 - fix: the costs and earnings cards no longer show explanation lines (solar, devices, home)
 
