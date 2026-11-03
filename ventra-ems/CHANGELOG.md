@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.651
+- feat: taking and releasing control of a battery, grid controller or EV charger ramps over its handover time; a Setpoint and actual card and the setpoint in the power history
+
+## 1.0.650
+- fix: device windows no longer jump when a toggle, a selection or a field is used; the next field keeps the focus
+
 ## 1.0.649
 - test: the Energy Price Forecast EU sensor is read from raw_today / raw_tomorrow, without its estimates
 
