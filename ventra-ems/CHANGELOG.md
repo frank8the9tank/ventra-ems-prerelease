@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.656
+- feat: in the free layout each energy line's middle can be dragged along the grid; double click puts it back to automatic
+
 ## 1.0.655
 - feat: a free layout on a grid for the overview (opt-in): every circle can be placed anywhere, snapping to a 20-unit grid, and the energy lines follow along the grid
 
