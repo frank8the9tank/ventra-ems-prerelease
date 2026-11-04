@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.658
+- feat: a line's handle in the free layout can be dragged in any direction; the line goes through that point (also a detour for a straight line)
+
+## 1.0.657
+- fix: Reset layout puts the overview back to the normal layout (free layout off, positions and moved lines removed, zone arrangement cleared), after asking
+
 ## 1.0.656
 - feat: in the free layout each energy line's middle can be dragged along the grid; double click puts it back to automatic
 
