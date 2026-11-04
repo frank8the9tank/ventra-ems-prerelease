@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.655
+- feat: a free layout on a grid for the overview (opt-in): every circle can be placed anywhere, snapping to a 20-unit grid, and the energy lines follow along the grid
+
 ## 1.0.654
 - feat: a battery or grid controller can have kWh readings; a Battery behaviour card shows its energy in and out, the round-trip efficiency full to full and the capacity from and to full
 
