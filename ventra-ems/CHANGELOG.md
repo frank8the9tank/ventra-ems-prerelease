@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.659
+- ci: a release promotes the tested pre-release images into the private package ventra-ems-release and publishes to the new release channel; no image may be pullable without a login
+
 ## 1.0.658
 - feat: a line's handle in the free layout can be dragged in any direction; the line goes through that point (also a detour for a straight line)
 
