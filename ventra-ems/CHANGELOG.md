@@ -1,6 +1,6 @@
 # Ventra-EMS release notes
 
-## Next release
+## 1.0.666
 
 ### New
 - **Set up everything in the overview.** Add, edit and remove devices, rules and prices from the overview itself; every setting has a short explanation (ⓘ). Changes apply without a restart.
@@ -8,7 +8,7 @@
 - **Graphs in every window.** Power over the last 24 hours or 7 days, costs and earnings in euros, the battery's charge level, and the setpoint next to what a device actually does. Hover or tap for the values.
 - **Costs and earnings per device.** See what the solar was worth, what the battery saved and cost, and what each device or the car cost — split over solar, battery and grid.
 - **Separate buy and sell price** with your own surcharges (supplier markup, energy tax, VAT), a second market price source with automatic fallback, and a name per price source.
-- **New battery strategies.** Buy and sell every day at the best moments, buy a fixed amount (or your predicted daily use) at the cheapest moments, and block all export at low prices.
+- **New battery strategies.** Buy and sell every day at the best moments, buy a fixed amount (or your predicted daily use) at the cheapest moments and see how much is still to buy, and block all export at low prices.
 - **Maximum import for the whole home.** When the connection gets too full, Ventra-EMS uses the battery, lowers devices and switches devices off, in the order you choose.
 - **EV charging.** Charge by rules per group (solar surplus, fixed power, maximum, by price, or ready by a set time at the cheapest moments), in up to 3 uninterrupted blocks, choose where the energy comes from, detect 1- or 3-phase charging, and keep the charger on when the car is full so it can preheat.
 - **Rules.** Up to 3 groups with 9 conditions each, a weekly schedule, extra sensors of your own, and a condition can be required to hold for a number of minutes first.
