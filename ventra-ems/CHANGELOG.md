@@ -1,5 +1,15 @@
 # Ventra-EMS release notes
 
+## Next release
+
+### Changed
+- **Adding devices.** Open the Home circle and choose "Add device": one list of every device type, each with a short explanation. The "+" circles are gone from the overview, and the Home window now has its own Edit button.
+- **Draw the lines yourself (free layout).** Tap a line in edit mode: it comes to the front, and you can drag its bends, add a bend with + and remove one.
+
+### Fixed
+- **Keep on when full with planned charging.** When planned charging reaches its target charge level, the car now counts as full, so the charger stays on and the car can preheat from it.
+- **Hover on every graph.** Graphs no longer lose their hover after a few minutes, and the stacked bars in the battery and solar windows show their values on hover or tap too.
+
 ## 1.0.666
 
 ### New
