@@ -4,7 +4,7 @@
 
 ### Changed
 - **Adding devices.** Open the Home circle and choose "Add device": one list of every device type, each with a short explanation. The "+" circles are gone from the overview, and the Home window now has its own Edit button.
-- **Draw the lines yourself (free layout).** Tap a line in edit mode: it comes to the front, and you can drag its bends, add a bend with + and remove one.
+- **Draw the lines yourself (free layout).** Tap a line in edit mode: it comes to the front, and you can drag every piece of it and every corner, and remove a bend.
 
 ### Fixed
 - **Keep on when full with planned charging.** When planned charging reaches its target charge level, the car now counts as full, so the charger stays on and the car can preheat from it.
