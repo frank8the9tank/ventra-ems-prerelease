@@ -4,11 +4,14 @@
 
 ### Changed
 - **Adding devices.** Open the Home circle and choose "Add device": one list of every device type, each with a short explanation. The "+" circles are gone from the overview, and the Home window now has its own Edit button.
+- **Jump to the device in Home Assistant.** Each device window has buttons that open the Home Assistant page of the devices behind it.
 - **Draw the lines yourself (free layout).** Tap a line in edit mode: it comes to the front, and you can drag every piece of it and every corner, and remove a bend.
+- **Every battery in the charge level graph.** The All batteries window shows each battery's charge level next to the average.
+- **Arrange the basic view.** Edit mode now keeps the basic view, so you can drag its circles and use the free layout there too.
 
 ### Fixed
 - **Keep on when full with planned charging.** When planned charging reaches its target charge level, the car now counts as full, so the charger stays on and the car can preheat from it.
-- **Hover on every graph.** Graphs no longer lose their hover after a few minutes, and the stacked bars in the battery and solar windows show their values on hover or tap too.
+- **Hover on every graph.** The values under the pointer now show in every window (the box was hidden behind the window), graphs no longer lose their hover after a few minutes, and the stacked bars in the battery and solar windows show their values too.
 
 ## 1.0.666
 
