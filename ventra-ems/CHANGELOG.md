@@ -10,7 +10,9 @@
 - **Arrange the basic view.** Edit mode now keeps the basic view, so you can drag its circles and use the free layout there too.
 
 ### Fixed
+- **Batteries share a small load again.** With several batteries, a small charge or discharge could give every battery 0 because of their minimum powers; now the batteries that can run at that power take it.
 - **Keep on when full with planned charging.** When planned charging reaches its target charge level, the car now counts as full, so the charger stays on and the car can preheat from it.
+- **The overview keeps still.** The lines and circles no longer jump now and then, circles and their icons no longer shift a pixel when a value under them changes, and the main circles no longer move when a line of text under them appears or disappears.
 - **Hover on every graph.** The values under the pointer now show in every window (the box was hidden behind the window), graphs no longer lose their hover after a few minutes, and the stacked bars in the battery and solar windows show their values too.
 
 ## 1.0.666
