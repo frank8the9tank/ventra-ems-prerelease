@@ -8,6 +8,8 @@
 ### Changed
 - **Adding devices.** Open the Home circle and choose "Add device": one list of every device type, each with a short explanation. The "+" circles are gone from the overview, and the Home window now has its own Edit button.
 - **Jump to the device in Home Assistant.** Each device window has buttons that open the Home Assistant page of the devices behind it.
+- **Choose where a forced charge gets its energy.** With Force on, an EV charger now also lets you choose: solar and grid (the home battery stays for the house), solar, battery and grid, or the cheapest at that moment.
+- **Place the savings line yourself (free layout).** The line with today's savings is a block on the grid that you can drag in edit mode.
 - **Solar forecast in the solar window.** The solar forecast graph moved from the grid window to the solar window (All solar, or your inverter).
 - **Draw the lines yourself (free layout).** Tap a line in edit mode: it comes to the front, and you can drag every piece of it and every corner, and remove a bend.
 - **Every battery in the charge level graph.** The All batteries window shows each battery's charge level next to the average.
