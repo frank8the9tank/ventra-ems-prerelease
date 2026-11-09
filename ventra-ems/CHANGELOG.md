@@ -2,9 +2,13 @@
 
 ## Next release
 
+### New
+- **Batteries are charged back below their lowest charge level.** Some inverters slowly drain their battery even when they should do nothing; when the battery gets more than 2 % below its lowest level, Ventra-EMS charges it back (0.5 kW, solar first). On for every battery, with its own settings.
+
 ### Changed
 - **Adding devices.** Open the Home circle and choose "Add device": one list of every device type, each with a short explanation. The "+" circles are gone from the overview, and the Home window now has its own Edit button.
 - **Jump to the device in Home Assistant.** Each device window has buttons that open the Home Assistant page of the devices behind it.
+- **Solar forecast in the solar window.** The solar forecast graph moved from the grid window to the solar window (All solar, or your inverter).
 - **Draw the lines yourself (free layout).** Tap a line in edit mode: it comes to the front, and you can drag every piece of it and every corner, and remove a bend.
 - **Every battery in the charge level graph.** The All batteries window shows each battery's charge level next to the average.
 - **Arrange the basic view.** Edit mode now keeps the basic view, so you can drag its circles and use the free layout there too.
