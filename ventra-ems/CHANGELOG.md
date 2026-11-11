@@ -6,6 +6,8 @@
 - **Batteries are charged back below their lowest charge level.** Some inverters slowly drain their battery even when they should do nothing; when the battery gets more than 2 % below its lowest level, Ventra-EMS charges it back (0.5 kW, solar first). On for every battery, with its own settings.
 
 ### Changed
+- **Better starting values for a new installation or a new device.** Grid connection 17 kW with at most 16 kW import and export; batteries 5 kW with a lowest power of 0.01 kW and manual rates of 2 kW; EV chargers 4–11 kW with phase detection and "Keep on when full" on; 5 seconds to take over and hand back control; buy and sell prices that fit a market or a contract price; new OCPP glue automations round the current to 2 A. Devices and automations you already have keep their settings.
+- **Live values while you choose entities.** The values under the entities in a device window now update every 5 seconds, and clicking an entity box lets you type to search right away.
 - **Adding devices.** Open the Home circle and choose "Add device": one list of every device type, each with a short explanation. The "+" circles are gone from the overview, and the Home window now has its own Edit button.
 - **Jump to the device in Home Assistant.** Each device window has buttons that open the Home Assistant page of the devices behind it.
 - **Choose where a forced charge gets its energy.** With Force on, an EV charger now also lets you choose: solar and grid (the home battery stays for the house), solar, battery and grid, or the cheapest at that moment.
@@ -16,6 +18,7 @@
 - **Arrange the basic view.** Edit mode now keeps the basic view, so you can drag its circles and use the free layout there too.
 
 ### Fixed
+- **Glue automations are always recognised.** A device window now always shows its glue automation, also when the online catalogue no longer offers that glueprint for your version; it keeps working as it is.
 - **Batteries share a small load again.** With several batteries, a small charge or discharge could give every battery 0 because of their minimum powers; now the batteries that can run at that power take it.
 - **Keep on when full with planned charging.** When planned charging reaches its target charge level, the car now counts as full, so the charger stays on and the car can preheat from it.
 - **The overview keeps still.** The lines and circles no longer jump now and then, circles and their icons no longer shift a pixel when a value under them changes, and the main circles no longer move when a line of text under them appears or disappears.
