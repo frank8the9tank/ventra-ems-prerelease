@@ -18,6 +18,7 @@
 - **Arrange the basic view.** Edit mode now keeps the basic view, so you can drag its circles and use the free layout there too.
 
 ### Fixed
+- **Buying a fixed amount per day.** With "all known prices", the amount still to buy today was postponed to tomorrow's cheaper hours and then never bought; now each day's amount is bought within that day.
 - **Saving in the Home window.** In edit mode the Home window now has Cancel and Save, like every other window, so its own settings can be saved.
 - **Glue automations are always recognised.** A device window now always shows its glue automation, also when the online catalogue no longer offers that glueprint for your version; it keeps working as it is.
 - **Batteries share a small load again.** With several batteries, a small charge or discharge could give every battery 0 because of their minimum powers; now the batteries that can run at that power take it.
