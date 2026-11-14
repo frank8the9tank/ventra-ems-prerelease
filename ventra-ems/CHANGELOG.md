@@ -3,6 +3,7 @@
 ## Next release
 
 ### New
+- **A preview of the new planner.** The Grid window shows "What Automatic would do": per hour whether the batteries would cover the house, buy cheap energy or hold their energy for the expensive hours, with the reason and what it would save. Ventra-EMS doesn't follow it yet.
 - **Batteries are charged back below their lowest charge level.** Some inverters slowly drain their battery even when they should do nothing; when the battery gets more than 2 % below its lowest level, Ventra-EMS charges it back (0.5 kW, solar first). On for every battery, with its own settings.
 - **Buy power and sell power.** In the Grid window, under buying and selling, you set how fast the batteries buy from and sell to the grid, together; solar comes on top. Both start at 10 kW, also on an existing installation: raise them if your batteries bought or sold faster before.
 
