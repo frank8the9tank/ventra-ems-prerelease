@@ -4,6 +4,7 @@
 
 ### New
 - **Batteries are charged back below their lowest charge level.** Some inverters slowly drain their battery even when they should do nothing; when the battery gets more than 2 % below its lowest level, Ventra-EMS charges it back (0.5 kW, solar first). On for every battery, with its own settings.
+- **Buy power and sell power.** In the Grid window, under buying and selling, you set how fast the batteries buy from and sell to the grid, together; solar comes on top. Both start at 10 kW, also on an existing installation: raise them if your batteries bought or sold faster before.
 
 ### Changed
 - **Better starting values for a new installation or a new device.** Grid connection 17 kW with at most 16 kW import and export; batteries 5 kW with a lowest power of 0.01 kW and manual rates of 2 kW; EV chargers 4–11 kW with phase detection and "Keep on when full" on; 5 seconds to take over and hand back control; buy and sell prices that fit a market or a contract price; new OCPP glue automations round the current to 2 A. Devices and automations you already have keep their settings.
@@ -16,6 +17,8 @@
 - **Draw the lines yourself (free layout).** Tap a line in edit mode: it comes to the front, and you can drag every piece of it and every corner, and remove a bend.
 - **Every battery in the charge level graph.** The All batteries window shows each battery's charge level next to the average.
 - **Arrange the basic view.** Edit mode now keeps the basic view, so you can drag its circles and use the free layout there too.
+- **Same order in the grid window.** With two power meters, the import meter now comes first and the export meter second, like the meter readings below.
+- **A flipped sign or a changed scale stands out.** When you flip the sign of an entity, the "Flip sign" button turns orange; a scale other than 1× turns orange too, so you see at a glance what is changed.
 
 ### Fixed
 - **Buying a fixed amount per day.** With "all known prices", the amount still to buy today was postponed to tomorrow's cheaper hours and then never bought; now each day's amount is bought within that day.
