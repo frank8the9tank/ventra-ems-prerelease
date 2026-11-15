@@ -3,11 +3,13 @@
 ## Next release
 
 ### New
-- **A preview of the new planner.** The Grid window shows "What Automatic would do": a chart of the expected use of the house and devices and the expected solar against what the batteries would do, and per hour whether they would cover the house, buy cheap energy or hold their energy for the expensive hours, with the reason and what it would save. Ventra-EMS doesn't follow it yet.
+- **A meter for a battery.** A battery window can now have its own power meter (optional), shown in its window like the meter of an inverter or EV charger. Ventra-EMS doesn't steer on it.
+- **Buying from the grid is now automatic.** One plan looks at all known prices, the expected use of the house, its devices and the cars, and the expected solar, and decides per 15 minutes whether the batteries cover the house, buy cheap energy for when it is needed, or hold their energy for the expensive hours. The Grid window shows the plan as a chart and per hour, with the reason and what it saves. Planned EV charging ("ready by") now takes its moments from the same plan, so the car and the batteries no longer plan the same cheap hours. Buying is either Automatic or Off; every installation starts on Automatic. The old buy choices (below a price, cheapest hours, every day, a fixed amount) and their settings are gone. Selling works as before.
 - **Batteries are charged back below their lowest charge level.** Some inverters slowly drain their battery even when they should do nothing; when the battery gets more than 2 % below its lowest level, Ventra-EMS charges it back (0.5 kW, solar first). On for every battery, with its own settings.
 - **Buy power and sell power.** In the Grid window, under buying and selling, you set how fast the batteries buy from and sell to the grid, together; solar comes on top. Both start at 10 kW, also on an existing installation: raise them if your batteries bought or sold faster before.
 
 ### Changed
+- **A new mode: hold.** While the plan holds the batteries, the mode shows "Auto-Hold": the house uses the grid now, and the batteries keep their energy for a more expensive moment. Solar still charges them.
 - **Better starting values for a new installation or a new device.** Grid connection 17 kW with at most 16 kW import and export; batteries 5 kW with a lowest power of 0.01 kW and manual rates of 2 kW; EV chargers 4–11 kW with phase detection and "Keep on when full" on; 5 seconds to take over and hand back control; buy and sell prices that fit a market or a contract price; new OCPP glue automations round the current to 2 A. Devices and automations you already have keep their settings.
 - **Live values while you choose entities.** The values under the entities in a device window now update every 5 seconds, and clicking an entity box lets you type to search right away.
 - **Adding devices.** Open the Home circle and choose "Add device": one list of every device type, each with a short explanation. The "+" circles are gone from the overview, and the Home window now has its own Edit button.
@@ -22,6 +24,9 @@
 - **A flipped sign or a changed scale stands out.** When you flip the sign of an entity, the "Flip sign" button turns orange; a scale other than 1× turns orange too, so you see at a glance what is changed.
 
 ### Fixed
+- **Every info mark shows its explanation.** In many places (entity fields, rules, glue automations, battery limits) the ⓘ showed nothing; now its text appears on top of the window on hover or tap, on a phone too.
+- **"Counts up" starts at 0.** Ticking "Counts up" on a meter that shows its total (e.g. 500 kWh) now shows 0 kWh and from then on only what is added; it starts again at midnight and when you choose another entity. The window shows both the meter's total and what Ventra-EMS reads.
+- **Emptying an entity field.** An optional entity field now has a × next to the chosen entity (or press Delete on it) to remove it; before, it was only possible from the bottom of the opened list.
 - **Buying a fixed amount per day.** With "all known prices", the amount still to buy today was postponed to tomorrow's cheaper hours and then never bought; now each day's amount is bought within that day.
 - **Saving in the Home window.** In edit mode the Home window now has Cancel and Save, like every other window, so its own settings can be saved.
 - **Glue automations are always recognised.** A device window now always shows its glue automation, also when the online catalogue no longer offers that glueprint for your version; it keeps working as it is.
