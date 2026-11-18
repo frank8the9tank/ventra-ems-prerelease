@@ -12,6 +12,7 @@
 - **Buy power and sell power.** In the Grid window, under buying and selling, you set how fast the batteries buy from and sell to the grid, together; solar comes on top. Both start at 10 kW, also on an existing installation: raise them if your batteries bought or sold faster before.
 
 ### Changed
+- **Version numbers like Home Assistant's.** From now on a version is year, month and a number, for example 2026.12.0. It is higher than the old numbers, so the update shows up as usual.
 - **A new mode: hold.** While the plan holds the batteries, the mode shows "Auto-Hold": the house uses the grid now, and the batteries keep their energy for a more expensive moment. Solar still charges them.
 - **Better starting values for a new installation or a new device.** Grid connection 17 kW with at most 16 kW import and export; batteries 5 kW with a lowest power of 0.01 kW and manual rates of 2 kW; EV chargers 4–11 kW with phase detection and "Keep on when full" on; 5 seconds to take over and hand back control; buy and sell prices that fit a market or a contract price; new OCPP glue automations round the current to 2 A. Devices and automations you already have keep their settings.
 - **Live values while you choose entities.** The values under the entities in a device window now update every 5 seconds, and clicking an entity box lets you type to search right away.
