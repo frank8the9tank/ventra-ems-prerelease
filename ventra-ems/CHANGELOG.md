@@ -11,6 +11,7 @@
 - **Batteries are charged back below their lowest charge level.** Some inverters slowly drain their battery even when they should do nothing; when the battery gets more than 2 % below its lowest level, Ventra-EMS charges it back (0.5 kW, solar first). On for every battery, with its own settings.
 - **Buy power and sell power.** In the Grid window, under buying and selling, you set how fast the batteries buy from and sell to the grid, together; solar comes on top. Both start at 10 kW, also on an existing installation: raise them if your batteries bought or sold faster before.
 - **Your energy supplier's costs next to Ventra-EMS's.** In the Grid window you can add your supplier's own entities for the cost of the energy you take and the yield of the energy you deliver (in euros). Ventra-EMS records them every 15 minutes and shows today's figures next to what it calculates itself, so you can see what your supplier really charges.
+- **A plan per battery.** The plan now knows what each battery can do: its own power, its lowest level and "Sell down to". It no longer plans more than the batteries together can deliver, and the Planner window shows each battery's own plan with when it reaches a limit. While selling, a battery at "Sell down to" now covers the house so the others' power reaches the grid.
 
 ### Changed
 - **Version numbers like Home Assistant's.** From now on a version is year, month and a number, for example 2026.12.0. It is higher than the old numbers, so the update shows up as usual.
