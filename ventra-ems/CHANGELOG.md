@@ -33,6 +33,7 @@
 - **A flipped sign or a changed scale stands out.** When you flip the sign of an entity, the "Flip sign" button turns orange; a scale other than 1× turns orange too, so you see at a glance what is changed.
 
 ### Fixed
+- **A battery that keeps the grid at zero on its own no longer feeds the car.** While a car charges from solar and grid, Ventra-EMS takes such a battery over and lets it cover only the house; a minute after the car stops drawing from the grid it zeros on its own again.
 - **1 or 3 phases is now tested at the start of every charging session.** The first time your rules let the car charge, Ventra-EMS asks the lowest current for a short while and sees from the power whether the car charges on 1 phase (up to 3.7 kW) or 3 phases (from 4.1 kW). The result is shown in the EV charger window under Phase detection, where you can change it until the car is unplugged. A 1-phase car can now also start on a little solar, and a car is no longer taken for 2 phases.
 - **The plan follows a saved change at once.** After saving a setting (buy power, Charge from the grid at most to, a battery limit, an EV ready-by time …) the plan is made again straight away and the plan card updates by itself; it also refreshes while it is open.
 - **The plan uses the buy power.** The plan showed the batteries buying faster than the buy power you set (up to what the grid allows); now it plans with it, as the batteries really buy. Its saving also counts the energy left in the batteries.
@@ -73,4 +74,5 @@
 - The settings, dashboard and debug pages are combined into the overview.
 
 ### Fixed
+- **A battery that keeps the grid at zero on its own no longer feeds the car.** While a car charges from solar and grid, Ventra-EMS takes such a battery over and lets it cover only the house; a minute after the car stops drawing from the grid it zeros on its own again.
 - Many fixes in planning, price handling and device control.
