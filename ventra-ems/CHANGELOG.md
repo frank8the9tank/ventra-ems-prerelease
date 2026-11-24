@@ -3,6 +3,7 @@
 ## Next release
 
 ### New
+- **A day view in the graphs.** Next to "24 hours" and "7 days" the power graphs now have "Day": one day from midnight to midnight, filling up as the day goes, with a day picker underneath to look back up to a month.
 - **Energy for the coming period.** A bar at the top of the Planner window shows what the house, your devices and the cars need until the batteries collect again, and fills with what is collected for it: stored, solar, bought, still to come and what the grid supplies then. So you see at a glance whether there is enough, or how much is short.
 - **A meter for a battery.** A battery window can now have its own power meter (optional), shown in its window and under its circle, like the meter of an inverter or EV charger. Ventra-EMS doesn't steer on it.
 - **One plan for buying and selling.** Every 15 minutes Ventra-EMS plans the coming 24 hours: with all known prices (and the usual prices after them), the expected use of the house and the cars, and the expected solar, corrected by how far off the forecast was the past days. It compares every way to run the batteries and picks the cheapest: cover the house, buy cheap energy for when it is needed, hold the energy for the expensive hours, or sell when that earns more than keeping it. Solar always comes first, and it only buys or holds when that saves at least €0.02 per kWh, and only sells when the price is at least €0.05 per kWh above buying the energy back, so the batteries are kept for the house first (both adjustable). Planned EV charging ("ready by") takes its moments from the same plan. It plans again at once when a setting, the prices, the forecast or a car changes, or when the batteries are off the plan. Buying and selling are each Automatic or Off; every installation starts on Automatic. The old buy and sell choices (above or below a price, the most expensive or cheapest hours, every day, a fixed amount) and their settings are gone; "Stop buying at" is now "Charge from the grid at most to" and "Stop selling at" is "Sell down to". The Planner window has a Tuning section (how far ahead, how fast it learns, the solar and the unknown prices it plans with); the defaults suit most homes.
@@ -54,6 +55,7 @@
 ## 1.0.666
 
 ### New
+- **A day view in the graphs.** Next to "24 hours" and "7 days" the power graphs now have "Day": one day from midnight to midnight, filling up as the day goes, with a day picker underneath to look back up to a month.
 - **Energy for the coming period.** A bar at the top of the Planner window shows what the house, your devices and the cars need until the batteries collect again, and fills with what is collected for it: stored, solar, bought, still to come and what the grid supplies then. So you see at a glance whether there is enough, or how much is short.
 - **Set up everything in the overview.** Add, edit and remove devices, rules and prices from the overview itself; every setting has a short explanation (ⓘ). Changes apply without a restart.
 - **Free layout.** Place every circle anywhere on a grid and steer the energy lines with a handle; "Reset layout" brings back the normal arrangement.
