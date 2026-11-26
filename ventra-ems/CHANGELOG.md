@@ -3,6 +3,7 @@
 ## Next release
 
 ### New
+- **What the grid should do while buying or selling.** The grid circle now shows the power the plan wants, for example "↑ 12.0 kW planned", next to what really goes in or out. The plan doesn't always sell at the full sell power: it spreads the energy over the most expensive moments. The explanation of the mode gives the power too.
 - **On or off for a while.** Under Force in a device window, after choosing On or Off you can now pick how long: until you change it, or 15 minutes up to 8 hours. After that the device follows its rules again by itself. The window shows until when, and so does the device's explanation.
 - **A third price source.** The Grid window now takes up to three market prices and three contract prices. When the one you chose stops working, the next one takes over (1, then 2, then 3), and the chosen one again as soon as it works. The card of the third source appears once the second one is set up.
 - **A day view in the graphs.** Next to "24 hours" and "7 days" the power and the costs-and-earnings graphs now have "Day": one day from midnight to midnight, filling up as the day goes, with a day picker underneath to look back up to a month.
